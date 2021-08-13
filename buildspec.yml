@@ -8,7 +8,7 @@ phases:
   install:
     runtime-versions:
       java: corretto8
-     # docker: 18
+      docker: 18
   pre_build:
     commands:
       - echo Logging in to Amazon ECR...
